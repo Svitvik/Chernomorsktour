@@ -1,0 +1,84 @@
+ {
+}
+:root {
+  --primary-text-color: rgb(3, 0, 0);
+  --title-text-color: rgb(0, 0, 0);
+  --accent-color: 2196f3;
+}
+/* основной текст  212121
+текст строк 757575
+шапка сайта белый ECECEC
+акцент 2196F3
+*/
+.body {
+  background-color: black;
+  color: var(--primary-text-color);
+}
+/*heder section*/
+.heder{
+  background: #d9f5fd;
+}
+.list {
+  list-style: none;
+}
+.contact {
+  color: rgb(101, 111, 131);
+}
+.site-nav,
+.link {
+  display: flex;
+  margin-left: 5px;
+  color: rgb(64, 113, 218);
+}
+.site-nav,
+.link:hover,
+.site-nav .link:focus {
+  color: rgb(74, 211, 253);
+  text-align: center;
+}
+/* site nav */
+.site-nav {
+  color: rgb(106, 112, 112);
+}
+.section {
+  display: flex;
+  color: rgb(73, 72, 77);
+}
+.section-titl {
+  color: rgb(0, 0, 0);
+}
+.naime {
+  color: var(--primary-text-color);
+}
+/*button*/
+.button {
+  background-color: rgb(12, 255, 4);
+  color: rgb(255, 21, 13);
+}
+
+.botton,
+.primary {
+  background-color: var(--accent-color);
+  color: var(--primary-text-color);
+}
+
+.botton,
+.secodary {
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
+}
+/*main section*/
+ .main {
+  background: #f5f4fa;
+}
+/*footer section*/
+.footer
+{
+  background: #d9f5fd;
+  text-align: center;
+}
+
+.text-footer{
+  list-style-type: none;
+  text-align: center;
+}
